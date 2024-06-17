@@ -24,7 +24,6 @@ nav {
    color: white;
    height: 60px;
    position: static;
-   /*OPCIONAL*/
    width: 100%;
 }
 
@@ -109,7 +108,7 @@ header {
 
 
 .header-description>img {
-   width: 150px;
+   width: 100px;
    margin-left: 100px;
 }
 

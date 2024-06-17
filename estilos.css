@@ -61,13 +61,6 @@ nav>a:hover {
 }
 
 
-form {
-   /*PROXIMAMENTE*/
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-}
-
 header {
    width: 100%;
    height: 100vh;
@@ -81,14 +74,23 @@ header {
 
 .header-description {
    color: white;
-   max-width: 400px;
+   max-width: 500px;
    display: flex;
-   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-end;
+   flex-direction: row;
    gap: 14px;
    margin-left: 20px;
 }
 
-.header-description>button {
+.header-description .text-content{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 14px;
+}
+
+.text-content>button {
    display: flex;
    justify-content: center;
    padding: 8px 10px;
@@ -98,20 +100,17 @@ header {
    color: white;
    font-weight: 500;
    font-size: 12px;
-   width: 20%;
+   width: 30%;
 }
 
-.header-description>button:hover {
+.text-content>button:hover {
    background-color: rgb(0, 236, 249);
 }
 
 
-.Bio>img {
-   width: 300px;
-   align-self: flex-start;
-   position: relative;
-   margin-left: 90px;
-   margin-top: -50px;
+.header-description>img {
+   width: 150px;
+   margin-left: 100px;
 }
 
 .Bio {

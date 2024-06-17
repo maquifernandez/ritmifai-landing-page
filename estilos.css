@@ -264,23 +264,6 @@ footer {
    color: #5f0069;
 }
 
-.footer-socials {
-   flex: 1 1 100%;
-   text-align: center;
-}
-
-.footer-socials a {
-   color: #b3b3b3;
-   text-decoration: none;
-   margin: 0 10px;
-   font-size: 1.5rem;
-   transition: color 0.3s;
-}
-
-.footer-socials a:hover {
-   color: #5f0069;
-}
-
 .footer-bottom {
    background: #000;
    padding: 20px 0;
@@ -291,4 +274,29 @@ footer {
    margin: 0;
    font-size: 0.9rem;
    color: #b3b3b3;
+}
+
+.social-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+
+.social-buttons a {
+   display: inline-block;
+   width: 30px;
+   height: 40px;
+}
+
+
+.social-buttons img {
+   width: 100%;
+   height: auto;
+   transition: transform 0.3s;
+}
+
+
+.social-buttons img:hover {
+   transform: scale(1.1);
 }

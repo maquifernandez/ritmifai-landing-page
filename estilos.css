@@ -146,7 +146,6 @@ header {
 
 .rotar {
    animation: girar 5s linear infinite;
-   /*HAY QUE DEJARLO FIJO*/
 }
 
 .promociones {
@@ -299,4 +298,64 @@ footer {
 
 .social-buttons img:hover {
    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+   
+   .header-description {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .header-description img {
+      margin-left: 0;
+      width: 80px;
+   }
+
+   .Bio-card {
+      width: 80%;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+   }
+
+   .promociones-cards {
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .promociones-card {
+      width: 100%;
+   }
+}
+
+@media (max-width: 480px) {
+   .logo {
+      width: 50px;
+   }
+
+   .text-content>button {
+      width: 100%;
+   }
+
+   .promociones-desc>button {
+      width: 100%;
+   }
+
+   .footer-links {
+      flex-direction: column;
+   }
+
+   .footer-logo .logo {
+      width: 200px;
+   }
+
+   .footer-container {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer-column {
+      margin-bottom: 20px;
+   }
 }

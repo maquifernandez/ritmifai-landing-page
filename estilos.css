@@ -305,13 +305,12 @@ footer {
       flex-direction: column;
       align-items: center;
       padding: 10px;
-      height: 70vh;
+      height: 65vh;
    }
 
    nav ul {
       flex-direction: column;
       width: 100%;
-      padding: 0;
    }
 
    nav ul li {
@@ -330,7 +329,7 @@ footer {
 
    .header-description img {
       margin-left: 0;
-      width: 80px;
+      width: 70px;
    }
 
    .Bio-card {

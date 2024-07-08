@@ -301,7 +301,28 @@ footer {
 }
 
 @media (max-width: 768px) {
-   
+   nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      height: 70vh;
+   }
+
+   nav ul {
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+   }
+
+   nav ul li {
+      width: 100%;
+   }
+
+   nav ul li a {
+      display: block;
+      padding: 10px;
+   }
+
    .header-description {
       flex-direction: column;
       align-items: center;

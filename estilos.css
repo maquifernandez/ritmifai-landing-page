@@ -300,10 +300,10 @@ footer {
    transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
    nav {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       padding: 10px;
       height: 70vh;
    }
@@ -352,7 +352,7 @@ footer {
 
 @media (max-width: 480px) {
    .logo {
-      width: 50px;
+      width: 100px;
    }
 
    .text-content>button {

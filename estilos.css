@@ -317,9 +317,10 @@ footer {
       width: 100%;
    }
 
-   nav ul li a {
+   nav ul li {
       display: block;
       padding: 10px;
+      text-align: center;
    }
 
    .header-description {
